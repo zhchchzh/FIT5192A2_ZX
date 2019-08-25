@@ -13,5 +13,10 @@ namespace WebApplication1
         {
 
         }
+
+        protected void BtnRegister_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
