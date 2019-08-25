@@ -121,7 +121,7 @@
                                     </asp:MenuItem>
                                     <asp:MenuItem Text="Email" Value="Email">
                                     </asp:MenuItem>
-                                    <asp:MenuItem Text="About us" Value="About US">
+                                    <asp:MenuItem Text="About us" Value="About US" NavigateUrl="~/About.aspx">
                                         <asp:MenuItem Text="Our history" Value="Our history"></asp:MenuItem>
                                         <asp:MenuItem Text="Frequently asked questions" Value="Frequently asked questions"></asp:MenuItem>
                                     </asp:MenuItem>
