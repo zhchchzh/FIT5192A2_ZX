@@ -1,10 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="WebApplication1.Registration" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container mtb">
+    <div class="container mtb" style="background-color: #fff">
         <div class="row">
-            <div class="col-lg-8">
-                <div class="hline"></div>       
+           
+                 
                 <div role="form">
+
+                    <div class="form-group">
+                        <label for="TxbUsername"></label>
+                        </div>
+
                     <div class="form-group">
                         <label for="TxbUsername">Nickname</label>
                         <asp:TextBox ID="TxbUsername" runat="server" CssClass="form-control"></asp:TextBox>
@@ -71,9 +76,9 @@
                     </div>
 
                     <div class="form-group row">
-                        <label for="DroplistProvince" class="col-lg-2">Province</label>
+                        <label for="DroplistGrade" class="col-lg-2">Province</label>
                         <div class="col-lg-10">
-                            <asp:DropDownList ID="DroplistProvince" runat="server" CssClass="form-control">
+                            <asp:DropDownList ID="DroplistGrade" runat="server" CssClass="form-control">
                                 <asp:ListItem>northern China</asp:ListItem>
                                 <asp:ListItem>eastern China</asp:ListItem>
                                 <asp:ListItem>southern China</asp:ListItem>
@@ -112,7 +117,5 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-    </div>
+    </div></div>
 </asp:Content>

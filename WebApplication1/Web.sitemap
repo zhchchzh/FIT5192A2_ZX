@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="HomePage"  description="">
+    <!--站点地图节点，类似树形结构，父节点包括子节点，如下-->
+    
+    <siteMapNode url="Registration.aspx" title="Registration"  description="">
+    </siteMapNode>
+    
+    <siteMapNode url="AboutUs.aspx" title="About Us"  description="">
+      <siteMapNode url="history.aspx" title="Our history"  description=""></siteMapNode>
+      <siteMapNode url="questions.aspx" title="Questions"  description=""></siteMapNode>
+    </siteMapNode>
+   
+    <siteMapNode url="email.aspx" title="Email"  description="">
+    </siteMapNode>
+    <siteMapNode url="Login.aspx" title="Login"  description="">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
