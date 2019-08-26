@@ -129,7 +129,7 @@
                             </asp:Menu>
                         </div>
                         <div style="margin-right:0px;width:150px;height:20px;float:right" >
-                            <p ><a href="#"  title="Register" >Register</a>丨<a href="#"  title="Login" >Login</a><p>
+                            <p ><a href="/Registration.aspx"  title="Register" >Register</a>丨<a href="#"  title="Login" >Login</a><p>
                                 </div>
                     </div>
                 </div>
