@@ -23,7 +23,6 @@
         <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
         <br/><br/>
         <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Click to SiteMap.file</asp:HyperLink>
-
     </div>
             
 </asp:Content>
