@@ -88,15 +88,13 @@
                             </asp:DropDownList>
                         </div>
                     </div>
-
-                    <div class="form-group">
-
-                        <asp:Button ID="BtnRegister" CssClass="btn btn-theme" runat="server" Text="Register" OnClick="BtnRegister_Click" />
+                    <div class="form-group row">
+                          <asp:Button ID="BtnRegister" runat="server" Text="Register" OnClick="BtnRegister_Click" />
                     </div>
                     <div class="form-group row">    
                         <div class="col-lg-10">
                             <asp:CheckBoxList ID="ChkList" runat="server" RepeatDirection="Horizontal" RepeatColumns="5" RepeatLayout="Flow">
-                                <asp:ListItem>&nbsp;I'm a staff&nbsp;&nbsp;&nbsp;&nbsp;</asp:ListItem>
+                                <asp:ListItem>&nbsp;I'm a game staff&nbsp;&nbsp;&nbsp;&nbsp;</asp:ListItem>
                             </asp:CheckBoxList>
                         </div>
                         
