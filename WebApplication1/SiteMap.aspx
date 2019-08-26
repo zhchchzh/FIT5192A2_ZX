@@ -3,8 +3,15 @@
 
     <div style="background-color:#fff;">
         <div class="section-title"><h3 class="title">The site map page</h3></div>
-        <div><h3>shows a site map of the site, using a TreeView control and the Web.sitemap file.</h3></div>
-        
+        <div>
+            <p>Sitemap allows webmasters to inform search engines of what pages they have <br/>
+                on their websites to grab.The simplest form of Sitemap is the XML file, <br/>
+                which lists the Web sites and other metadata about each Web site, so that <br/>
+                search engines can more intelligently crawl the Web site.
+            </p>
+        </div>
+        <br/><br/>
+        <h3>TreeView:</h3>
 
         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" NoExpandImageUrl="img/1.png" 
             CollapseImageToolTip="Collapse Node" ExpandImageUrl="img/2.png" ExpandImageToolTip="Expand Node"
@@ -14,9 +21,8 @@
 
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
         <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
-
+        <br/><br/>
         <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Click to SiteMap.file</asp:HyperLink>
-
     </div>
             
 </asp:Content>

@@ -51,6 +51,7 @@
                         </div>
                     </div>
                     <a href="#" class="primary-btn order-submit">Click to SKIN.file</a>
+                </div>
             </div>
         </div>
     </div>
