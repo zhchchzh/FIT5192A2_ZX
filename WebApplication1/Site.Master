@@ -114,22 +114,22 @@
                             <asp:Menu ID="Menu2" runat="server"  DynamicHorizontalOffset="20" Font-Names="Verdana" Font-Size="large"  Orientation="Horizontal" StaticSubMenuIndent="10px" Height="30px"  Width="800px" font-weight="bold" style="margin-left:0px">
                                 <staticmenuitemstyle horizontalpadding="20"/>
                                 <Items>
-                                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/bookjieyuepaihang.aspx" ></asp:MenuItem>
-                                    <asp:MenuItem Text="Documentation" Value="Documentation">
+                                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default.aspx" ></asp:MenuItem>
+                                    <asp:MenuItem Text="Documentation" Value="Documentation" NavigateUrl="~/Documentation.aspx">
                                     </asp:MenuItem>
-                                    <asp:MenuItem Text="Site Map" Value="Site Map">
+                                    <asp:MenuItem Text="Site Map" Value="Site Map" NavigateUrl="~/SiteMap.aspx">
                                     </asp:MenuItem>
-                                    <asp:MenuItem Text="Email" Value="Email">
+                                    <asp:MenuItem Text="Email" Value="Email" NavigateUrl="~/email.aspx">
                                     </asp:MenuItem>
-                                    <asp:MenuItem Text="About us" Value="About US" NavigateUrl="~/About.aspx">
-                                        <asp:MenuItem Text="Our history" Value="Our history"></asp:MenuItem>
-                                        <asp:MenuItem Text="Frequently asked questions" Value="Frequently asked questions"></asp:MenuItem>
+                                    <asp:MenuItem Text="About us" Value="About US" NavigateUrl="~/AboutUs.aspx">
+                                        <asp:MenuItem Text="Our history" Value="Our history" NavigateUrl="~/history.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Frequently asked questions" Value="Frequently asked questions" NavigateUrl="~/questions.aspx"></asp:MenuItem>
                                     </asp:MenuItem>
                                 </Items>
                             </asp:Menu>
                         </div>
                         <div style="margin-right:0px;width:150px;height:20px;float:right" >
-                            <p ><a href="/Registration.aspx"  title="Register" >Register</a>丨<a href="#"  title="Login" >Login</a><p>
+                            <p ><a href="/Registration.aspx"  title="Register" >Register</a>丨<a href="/Login.aspx"  title="Login" >Login</a><p>
                                 </div>
                     </div>
                 </div>

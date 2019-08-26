@@ -1,9 +1,9 @@
-﻿/*
+/*
 Template Name: Electro - HTML Ecommerce Template
 Author: yaminncco
 
 Colors:
-	
+	Body 		: #333
 	Headers 	: #2B2D42
 	Primary 	: #D10024
 	Dark 		: #15161D ##1E1F29
@@ -58,8 +58,7 @@ Table OF Contents
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  
-
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,10 +72,6 @@ a {
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
-    z-index: 1;
-    left: 358px;
-    top: 200px;
-    position: absolute;
 }
 
 a:hover, a:focus {
