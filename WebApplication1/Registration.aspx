@@ -71,9 +71,9 @@
                     </div>
 
                     <div class="form-group row">
-                        <label for="DroplistGrade" class="col-lg-2">Province</label>
+                        <label for="DroplistProvince" class="col-lg-2">Province</label>
                         <div class="col-lg-10">
-                            <asp:DropDownList ID="DroplistGrade" runat="server" CssClass="form-control">
+                            <asp:DropDownList ID="DroplistProvince" runat="server" CssClass="form-control">
                                 <asp:ListItem>northern China</asp:ListItem>
                                 <asp:ListItem>eastern China</asp:ListItem>
                                 <asp:ListItem>southern China</asp:ListItem>

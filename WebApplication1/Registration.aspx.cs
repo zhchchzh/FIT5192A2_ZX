@@ -28,7 +28,7 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@Email", TxbMail.Text);
                 cmd.Parameters.AddWithValue("@Password", TxbPassword.Text);
                 cmd.Parameters.AddWithValue("@Gender", "");
-                cmd.Parameters.AddWithValue("@Province", "");
+                cmd.Parameters.AddWithValue("@Province", DroplistProvince.SelectedValue);
                 cmd.Parameters.AddWithValue("@IsStaff", "");
                 cmd.Parameters.AddWithValue("@Target", "");
                 if (cmd.ExecuteNonQuery() > 0)
