@@ -100,6 +100,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DisplayCode.aspx" />
     <Content Include="email.aspx" />
     <Content Include="history.aspx" />
     <Content Include="questions.aspx" />
@@ -168,6 +169,13 @@
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisplayCode.aspx.cs">
+      <DependentUpon>DisplayCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayCode.aspx.designer.cs">
+      <DependentUpon>DisplayCode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="email.aspx.cs">
       <DependentUpon>email.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -276,6 +284,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\" />
+    <Folder Include="locked\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
