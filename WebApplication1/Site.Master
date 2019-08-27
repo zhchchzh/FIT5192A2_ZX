@@ -114,7 +114,7 @@
                             <asp:Menu ID="Menu2" runat="server"  DynamicHorizontalOffset="20" Font-Names="Verdana" Font-Size="large"  Orientation="Horizontal" StaticSubMenuIndent="10px" Height="30px"  Width="800px" font-weight="bold" style="margin-left:0px">
                                 <staticmenuitemstyle horizontalpadding="20"/>
                                 <Items>
-                                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default.aspx" ></asp:MenuItem>
+                                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default.aspx"  ></asp:MenuItem>
                                     <asp:MenuItem Text="Documentation" Value="Documentation" NavigateUrl="~/Documentation.aspx">
                                     </asp:MenuItem>
                                     <asp:MenuItem Text="Site Map" Value="Site Map" NavigateUrl="~/SiteMap.aspx">
