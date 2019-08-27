@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="questions.aspx.cs" Inherits="WebApplication1.About" Theme="SKin1"%>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <!--@author XiWang-->
     <div style="background-color:#fff;border:1px solid #c9c9c9;">
         <div style="padding-left:15px">
         <div class="section-title"><h3 class="title">Questions:</h3></div>

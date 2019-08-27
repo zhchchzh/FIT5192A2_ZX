@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="email.aspx.cs" Inherits="WebApplication1.email" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!--@author XiWang-->
     <div class="section" style="background-color:#fff;border:1px solid #c9c9c9;">
         <div style="padding-left:15px">
         <div class="section-title"><h3 class="title">The Email page</h3></div>

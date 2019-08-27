@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" Theme="SKin1" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <!--@author XiWang-->
     <div class="jumbotron">
         <h1>ZX.Steam</h1>
         <p class="lead">ZX.Steam is the ultimate destination for playing, discussing and creating games.</p>

@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="WebApplication1.AboutUs" Theme="SKin1" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!--@author XiWang-->
      <div style="background-color:#fff;border:1px solid #c9c9c9;">
          <div style="padding-left:15px">
          <div class="section-title"><h3 class="title">Immediate access to games</h3></div>

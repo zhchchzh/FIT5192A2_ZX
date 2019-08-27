@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SearchPage.aspx.cs" Inherits="WebApplication1.SearchPage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!--@author ZhuChengxiao-->
        <div>
         <asp:Label ID="Label2" runat="server" Height="50px"></asp:Label>
         </div>
