@@ -44,7 +44,7 @@
                 <asp:Label ID="Label13" runat="server" Text="Is a Staff:" Width="100px"></asp:Label>
                 <asp:Label ID="LabelIsStaff" runat="server" Width="50px"></asp:Label>
                 <asp:Label ID="Label15" runat="server" Text="ImageURL:" Width="100px"></asp:Label>
-                <asp:Label ID="LabelImageURL" runat="server" Width="800px" Font-Underline="True" ForeColor="Blue"></asp:Label>
+                <asp:Label ID="LabelImageURL" runat="server" Width="700px" Font-Underline="True" ForeColor="Blue"></asp:Label>
            </div>
         </asp:Panel>
     </div>

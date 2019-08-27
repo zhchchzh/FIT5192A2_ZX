@@ -101,16 +101,16 @@
                     </div>
                     <div>
                         <div>
-                        <a href="#">
+                        <a href="SearchPage.aspx" target="_blank">
                             <img src="Content/img/addrecords.jpg" alt="Popular Post" /></a>
                         </div>
                         <div>
-                        <a href="#">
+                        <a href="SearchPage.aspx" target="_blank">
                             <img src="Content/img/displayrecords.jpg" alt="Popular Post" /></a>
-                        <p><a href="#">Click here to show all users</a></p>
+                        <p><a href="SearchPage.aspx" target="_blank">Click here to show all users</a></p>
                         </div>
                         <div>
-                        <a href="#">
+                        <a href="SearchPage.aspx" target="_blank">
                             <img src="Content/img/searchrecords.jpg" alt="Popular Post" /></a>
                         </div>
                     </div>
