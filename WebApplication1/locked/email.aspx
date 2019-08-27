@@ -14,7 +14,7 @@
         </div>
         <br/><br/>            
         
-        <a href="#" class="primary-btn order-submit">Click to Connect Us</a>
+        <a href="/locked/DisplayCode.aspx?filename=~/locked/email.aspx" class="primary-btn order-submit">email</a>
         </div></div>
         
     

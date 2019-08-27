@@ -37,7 +37,8 @@ namespace WebApplication1
                             LabelEmail.Text = sqlDataReader["Email"].ToString();
                             LabelNickName.Text = sqlDataReader["Nickname"].ToString();
                             LabelType.Text = sqlDataReader["Target"].ToString();
-                            LabelImageURL.Text = sqlDataReader["Image"].ToString();
+                            ImageURL.Text = sqlDataReader["Image"].ToString();
+                            ImageURL.NavigateUrl = sqlDataReader["Image"].ToString();
                             LabelProvice.Text = Provinces[sqlDataReader.GetInt32(6)];
                             if (sqlDataReader.GetBoolean(4))
                             {

@@ -3,20 +3,20 @@
   <siteMapNode url="Default" title="HomePage"  description="">
     <!--站点地图节点，类似树形结构，父节点包括子节点，如下-->
     
-    <siteMapNode url="Registration" title="Registration"  description="">
+    <siteMapNode url="/locked/Registration" title="Registration"  description="">
     </siteMapNode>
     
-    <siteMapNode url="AboutUs" title="About Us"  description="">
-      <siteMapNode url="history" title="Our history"  description=""></siteMapNode>
-      <siteMapNode url="questions" title="Questions"  description=""></siteMapNode>
+    <siteMapNode url="/locked/AboutUs" title="About Us"  description="">
+      <siteMapNode url="/locked/history" title="Our history"  description=""></siteMapNode>
+      <siteMapNode url="/locked/questions" title="Questions"  description=""></siteMapNode>
     </siteMapNode>
-    <siteMapNode url="SiteMap" title="SiteMap"  description="">
+    <siteMapNode url="/locked/SiteMap" title="SiteMap"  description="">
     </siteMapNode>
-    <siteMapNode url="email" title="Email"  description="">
+    <siteMapNode url="/locked/email" title="Email"  description="">
     </siteMapNode>
     <siteMapNode url="Login" title="Login"  description="">
     </siteMapNode>
-    <siteMapNode url="Documentation" title="Documentation"  description="">
+    <siteMapNode url="/locked/Documentation" title="Documentation"  description="">
     </siteMapNode>
   </siteMapNode>
 </siteMap>

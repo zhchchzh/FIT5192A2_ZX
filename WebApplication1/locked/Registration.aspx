@@ -102,17 +102,17 @@
                     </div>
                     <div>
                         <div>
-                        <a href="DisplayCode.aspx?filename=~/SearchPage.aspx" target="_blank">
-                            <img src="Content/img/addrecords.jpg" alt="Popular Post" /></a>
+                        <a href="/locked/DisplayCode.aspx?filename=~/locked/SearchPage.aspx" target="_blank">
+                            <img src="/Content/img/addrecords.jpg" alt="Popular Post" /></a>
                         </div>
                         <div>
-                        <a href="SearchPage.aspx" target="_blank">
-                            <img src="Content/img/displayrecords.jpg" alt="Popular Post" /></a>
+                        <a href="/locked/SearchPage.aspx" target="_blank">
+                            <img src="/Content/img/displayrecords.jpg" alt="Popular Post" /></a>
                         <p><a href="SearchPage.aspx" target="_blank">Click here to show all users</a></p>
                         </div>
                         <div>
-                        <a href="SearchPage.aspx" target="_blank">
-                            <img src="Content/img/searchrecords.jpg" alt="Popular Post" /></a>
+                        <a href="/locked/SearchByUser.aspx" target="_blank">
+                            <img src="/Content/img/searchrecords.jpg" alt="Popular Post" /></a>
                             <br/><br/>
                         </div>
                     </div>

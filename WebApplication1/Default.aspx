@@ -22,7 +22,8 @@
                         
 					</div>
 					<!-- /section title -->
-
+                    <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="adrotator" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/Default.aspx" Target="_blank">AdRotator</asp:HyperLink></div>
+                        <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="masterpage" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/Site.Master" Target="_blank">Master Page</asp:HyperLink></div>
 					<!-- Products tab & slick -->
 					<div class="col-md-12">
 						<div class="row">
@@ -356,8 +357,7 @@
                                 </div>
 								<!-- /tab -->
 							</div>
-                            <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="adrotator" runat="server" SkinID="btn_1_Font" NavigateUrl="#">AdRotator</asp:HyperLink></div>
-                        <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="masterpage" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Master Page</asp:HyperLink></div>
+                            
 						</div>
 					</div>
 					<!-- Products tab & slick -->

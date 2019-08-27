@@ -14,16 +14,16 @@
         <br/><br/>
         <h3>TreeView:</h3>
 
-        <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" NoExpandImageUrl="img/1.png" 
-            CollapseImageToolTip="Collapse Node" ExpandImageUrl="img/2.png" ExpandImageToolTip="Expand Node"
-            RootNodeStyle-ImageUrl="img/1.png" ParentNodeStyle-ImageUrl="img/3.png" LeafNodeStyle-ImageUrl="img/3.png"
+        <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" NoExpandImageUrl="/img/1.png" 
+            CollapseImageToolTip="Collapse Node" ExpandImageUrl="/img/2.png" ExpandImageToolTip="Expand Node"
+            RootNodeStyle-ImageUrl="/img/1.png" ParentNodeStyle-ImageUrl="/img/3.png" LeafNodeStyle-ImageUrl="/img/3.png"
             ImageSet="Custom">
         </asp:TreeView>
 
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
         <asp:SiteMapPath ID="SiteMapPath1" runat="server" Visible="False"></asp:SiteMapPath>
         <br/><br/>
-        <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Click to SiteMap.file</asp:HyperLink><br/><br/>
+        <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/locked/email.aspx">Click to SiteMap.file</asp:HyperLink><br/><br/>
     </div></div>
             
 </asp:Content>

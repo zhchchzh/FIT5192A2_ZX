@@ -9,15 +9,21 @@
                             <h3 class="title">task allocation</h3>
                         </div>
                         <div><strong>XiWang:</strong></div>
-                        <div>1x ...</div>
-                        <div>2x ...</div>
-                        <div>3x ...</div>
+                        <div>1x Master Page</div>
+                        <div>2x Home Page</div>
+                        <div>3x About us</div>
+                        <div>4x About us</div>
+                        <div>5x Site Map</div>
+                        <div>6x Documentation</div>
+                        <div>7x Email</div>
+                        <div>8x Calendar</div>
                         <div><strong>ZhuChengxiao:</strong></div>
-                        <div>1x ...</div>
-                        <div>2x ...</div>
-                        <div>3x ...</div>
+                        <div>1x Login</div>
+                        <div>2x Registration</div>
+                        <div>3x Display Code</div>
+                        <div>4x Database</div>
                     </div>
-                    <a href="#" class="primary-btn order-submit">Click to CSS.file</a>
+                    <a href="/locked/DisplayCode.aspx?filename=~/Content/Site.css" Target="_blank" class="primary-btn order-submit">Click to CSS.file</a>
                 </div>
                 <div class="col-md-5 order-details">
                     <div class="section-title text-center">
@@ -50,7 +56,7 @@
 							</div>
                         </div>
                     </div>
-                    <a href="#" class="primary-btn order-submit">Click to SKIN.file</a>
+                    <a href= "/locked/DisplayCode.aspx?filename=~/App_Themes/Skin1/Skin1.skin" Target="_blank" class="primary-btn order-submit">Click to SKIN.file</a>
                 </div>
             </div>
         </div>

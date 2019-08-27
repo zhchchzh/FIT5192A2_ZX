@@ -25,5 +25,7 @@
                 <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" /><br/><br/>
             </div></div>
         </asp:Panel>
+        <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="adrotator" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/Login.aspx" Target="_blank">LoginPage</asp:HyperLink></div>
+                        <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="masterpage" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/Web.config" Target="_blank">Web.config</asp:HyperLink></div>
     </div>
 </asp:Content>

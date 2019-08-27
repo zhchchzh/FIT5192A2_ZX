@@ -10,7 +10,7 @@
             </p>
          </div>
          <br/><br/>
-         <asp:HyperLink ID="Aboutus" runat="server" SkinID="btn_1_Font" NavigateUrl="#">About Us</asp:HyperLink>
+         <asp:HyperLink ID="Aboutus" runat="server" SkinID="btn_1_Font" NavigateUrl="/locked/DisplayCode.aspx?filename=~/locked/AboutUs.aspx" Target="_blank">About Us</asp:HyperLink>
          <br/><br/>
          </div></div>
 </asp:Content>

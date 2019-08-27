@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SearchPage.aspx.cs" Inherits="WebApplication1.SearchPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+       <div>
+        <asp:Label ID="Label2" runat="server" Height="50px"></asp:Label>
+        </div>
     <div>
 
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Height="200px" OnRowCommand="GridView1_OnRowCommand" Width="800px" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
@@ -26,6 +29,9 @@
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringName %>" SelectCommand="SELECT * FROM [Users]"></asp:SqlDataSource>
 
     </div>
+       <div>
+        <asp:Label ID="Label4" runat="server" Height="50px"></asp:Label>
+        </div>
     <div>
         <asp:Panel ID="Panel1" runat="server" BorderStyle="Solid" BorderWidth="2px" Width="800px" BackColor="White">
             <div>
@@ -44,7 +50,7 @@
                 <asp:Label ID="Label13" runat="server" Text="Is a Staff:" Width="100px"></asp:Label>
                 <asp:Label ID="LabelIsStaff" runat="server" Width="50px"></asp:Label>
                 <asp:Label ID="Label15" runat="server" Text="ImageURL:" Width="100px"></asp:Label>
-                <asp:Label ID="LabelImageURL" runat="server" Width="700px" Font-Underline="True" ForeColor="Blue"></asp:Label>
+                <asp:HyperLink ID="ImageURL" runat="server" Width="700px" Font-Underline="True" ForeColor="Blue"></asp:HyperLink>
            </div>
         </asp:Panel>
     </div>

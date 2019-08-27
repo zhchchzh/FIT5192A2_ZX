@@ -12,8 +12,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string filePath =
-                Server.MapPath(Request.QueryString["filename"]);
+            string filePath = Server.MapPath(Request.QueryString["filename"]);
             FileName.Text = Request.QueryString["filename"];
             FileInfo file = new FileInfo(filePath);
 
@@ -23,7 +22,7 @@ namespace WebApplication1
               || file.Extension == ".config"
               || file.Extension == ".sitemap"
               || file.Extension == ".cs"
-              || file.Extension == ".master")
+              || file.Extension == ".Master")
             {
                 Code.Text = ReadFile(filePath);
             }
