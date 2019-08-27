@@ -1,4 +1,4 @@
-/*
+﻿/*
 Template Name: Electro - HTML Ecommerce Template
 Author: yaminncco
 
@@ -300,6 +300,8 @@ textarea.input {
   position: relative;
   margin-bottom: 30px;
   margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section-title .title {
