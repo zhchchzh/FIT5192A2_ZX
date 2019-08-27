@@ -57,6 +57,7 @@ namespace WebApplication1
                             }
                         }
                     }
+                    sqlDataReader.Close();
 
                 }
                 catch (Exception ex)
