@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -32,6 +33,7 @@ namespace WebApplication1
                     sqlDataReader.Read();
                     HttpContext.Current.Session["UserId"] = sqlDataReader.GetInt32(0);
                     HttpContext.Current.Session.Timeout = 30;
+                    FormsAuthentication.SetAuthCookie(sqlDataReader.GetInt32(0).ToString(), false);
                     Response.Write("<script>alert('Successfully'); window.location = 'Default.aspx';</script> ");
                 }
                 else

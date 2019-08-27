@@ -101,7 +101,7 @@
                     </div>
                     <div>
                         <div>
-                        <a href="SearchPage.aspx" target="_blank">
+                        <a href="DisplayCode.aspx?filename=~/SearchPage.aspx" target="_blank">
                             <img src="Content/img/addrecords.jpg" alt="Popular Post" /></a>
                         </div>
                         <div>
