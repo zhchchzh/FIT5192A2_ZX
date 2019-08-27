@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SiteMap.aspx.cs" Inherits="WebApplication1.SiteMap" Theme="SKin1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div style="background-color:#fff;">
+    <div style="background-color:#fff;border:1px solid #c9c9c9;">
+        <div style="padding-left:15px">
         <div class="section-title"><h3 class="title">The site map page</h3></div>
         <div>
             <p>Sitemap allows webmasters to inform search engines of what pages they have <br/>
@@ -20,9 +21,9 @@
         </asp:TreeView>
 
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
-        <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Visible="False"></asp:SiteMapPath>
         <br/><br/>
-        <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Click to SiteMap.file</asp:HyperLink>
-    </div>
+        <asp:HyperLink ID="Sitemap" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Click to SiteMap.file</asp:HyperLink><br/><br/>
+    </div></div>
             
 </asp:Content>

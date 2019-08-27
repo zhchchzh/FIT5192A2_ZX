@@ -138,12 +138,12 @@
             
 			<!-- /container -->
 		</nav>
-            
-            <ul id="breadcrumbs">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Main Lavel</a></li>
-                <li>Your Current page</li>
-            </ul>
+            <asp:SiteMapPath ID="sitepath" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+            <CurrentNodeStyle ForeColor="#333333" />
+            <NodeStyle Font-Bold="True" ForeColor="#666666" />
+            <PathSeparatorStyle Font-Bold="True" ForeColor="#1C5E55" />
+            <RootNodeStyle Font-Bold="True" ForeColor="#1C5E55" />
+        </asp:SiteMapPath>
             
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 
@@ -156,7 +156,7 @@
 				<!-- container -->
 				<div class="container">
 					<!-- row -->
-					<div class="row">
+					<div class="row" style="padding-left:100px">
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">About Us</h3>

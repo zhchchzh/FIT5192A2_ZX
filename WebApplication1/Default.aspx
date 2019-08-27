@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" Theme="SKin1" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -16,9 +16,10 @@
 
 					<!-- section title -->
 					<div class="col-md-12">
-						<div class="section-title">
+						<div class="section-title" style="padding-left:15px">
 							<h3 class="title">New Products</h3>
                         </div>
+                        
 					</div>
 					<!-- /section title -->
 
@@ -355,6 +356,8 @@
                                 </div>
 								<!-- /tab -->
 							</div>
+                            <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="adrotator" runat="server" SkinID="btn_1_Font" NavigateUrl="#">AdRotator</asp:HyperLink></div>
+                        <div style="float:right;margin-right:20px;margin-left:20px"><asp:HyperLink ID="masterpage" runat="server" SkinID="btn_1_Font" NavigateUrl="#">Master Page</asp:HyperLink></div>
 						</div>
 					</div>
 					<!-- Products tab & slick -->
